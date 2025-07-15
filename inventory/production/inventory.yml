@@ -1,0 +1,6 @@
+---
+# Run ansible code in locally
+all:
+  hosts:
+    localhost:
+      ansible_connection: local
