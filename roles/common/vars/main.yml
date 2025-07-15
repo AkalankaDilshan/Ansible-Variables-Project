@@ -1,3 +1,6 @@
 vars:
 # 1. String Varialbes
 test_variable: "Hello world in ansible playbook"
+
+# Boolean
+is_enabled: true

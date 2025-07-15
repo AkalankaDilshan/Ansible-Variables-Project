@@ -2,3 +2,8 @@
 - name: String Varialbe check
   debug:
     var: test_variable
+
+- name: Boolean Varialbe check
+  debug:
+    msg: "Its work"
+  when: is_enabled
