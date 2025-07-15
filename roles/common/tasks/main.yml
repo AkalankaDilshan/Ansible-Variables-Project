@@ -1,16 +1,4 @@
 ---
-- name: Ansible playbook for Varialbe
-  hosts: all
-  become: yes
-  remote_user: ubuntu
-  roles:
-    - common
-
-  vars:
-  # 1. String Varialbes
-  test_variable: "Hello world in ansible playbook"
-
-  tasks:
-    - name: String Varialbe check
-      debug:
-        var: test_variable
+- name: String Varialbe check
+  debug:
+    var: test_variable
