@@ -7,3 +7,8 @@
   debug:
     msg: "Its work"
   when: is_enabled
+
+- name: List Variable check
+  debug:
+    var: fruits
+  when: is_enabled
