@@ -10,3 +10,9 @@ fruits:
   - apple
   - banana
   - orange
+
+# Dictionary
+fruit_price:
+  apple: 25
+  banana: 30
+  orange: 75
