@@ -12,3 +12,7 @@
   debug:
     var: fruits
   when: is_enabled
+
+- name: List - Reference individual item
+  debug:
+    var: fruits[0]
