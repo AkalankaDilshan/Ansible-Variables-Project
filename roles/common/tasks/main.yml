@@ -24,3 +24,8 @@
 - name: Jinja 2 filter on variables
   debug:
     var: fruit_price.keys() | list | map('upper') | list
+
+- name: Enviroment var at playbook level
+  ansible.builtin.command: "echo $EXAMPLE"
+  environment:
+    EXAMPLE: "Hello from Ansible"
