@@ -23,4 +23,4 @@
 
 - name: Jinja 2 filter on variables
   debug:
-    var: fruit_price.keys() | list | map('upper') | lsit
+    var: fruit_price.keys() | list | map('upper') | list
