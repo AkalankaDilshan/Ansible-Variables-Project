@@ -20,3 +20,7 @@
 - name: Dictionary Variables - Accessing all dictionary variables
   debug:
     var: fruit_price
+
+- name: Jinja 2 filter on variables
+  debug:
+    var: fruit_price.keys() | list | map('upper') | lsit
